@@ -6,9 +6,9 @@ This project analyzes the relationship between investments in different advertis
 
 # Key Insights
 1. Analyzing the Sales histogram, we observed a slightly higher concentration to the left, with a slight tail to the right:
-![1_sales_histogram](images/1_sales_histogram.jpg)
+![Sales Histogram](images/1_sales_histogram.jpg)
 
-2. The correlation matrix revealed a strong positive correlation between Sales and TV Ad Budget, indicating that higher investments in TV ads are associated with higher sales. On the other hand, the correlation with Radio Ad Budget showed a moderate positive correlation, while the correlation with Newspaper Ad Budget exhibited a weak positive correlation:
+3. The correlation matrix revealed a strong positive correlation between Sales and TV Ad Budget, indicating that higher investments in TV ads are associated with higher sales. On the other hand, the correlation with Radio Ad Budget showed a moderate positive correlation, while the correlation with Newspaper Ad Budget exhibited a weak positive correlation:
 ![2_correlation_matrix](images/2_correlation_matrix.png)
 
 
