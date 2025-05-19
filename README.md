@@ -21,7 +21,7 @@ This project analyzes the relationship between investments in different advertis
 ![Box Plot](images/5_box_plot.png)
 
 6. After evaluating the behavior of the data, it was observed that the variable for newspaper ad spending showed a low correlation with sales which led to the decision to exclude the variable to improve the model's performance. Before excluding the newspaper ad spending variable, the z-score analysis indicated two outliers, which were also visually identified in the plots. However, it was not necessary to remove these outliers, as the variable was already excluded:
-![Box Plot Reviewed](https://github.com/felipe-lemos-costa/Advertising_Budget_Sales/raw/main/images/6_box_plot_reviewed.png)
+![Box Plot Reviewed](images/6_box_plot_reviewed.png)
 
 7. Three Machine Learning models were tested to predict sales: KNN (K-Nearest Neighbors), Decision Tree, and Linear Regression. The evaluation of the models was performed using the R² coefficient of determination and Mean Squared Error (MSE), through cross-validation. Although very similar to KNN, the results indicated that the Decision Tree model showed the best performance with an R² value of 94,6% and an MSE of 1.58, making it the most suitable option for the analyzed dataset, as the KNN model with an R² of 96,1% and an MSE of 1.78 carries a higher risk of overfitting:
 ![MSE Comparison](images/5_mse_comparison.png)
