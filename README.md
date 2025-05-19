@@ -20,6 +20,8 @@ This project analyzes the relationship between investments in different advertis
 5. The analysis of the boxplot visually revealed the presence of two outliers in the Newspaper Ad Budget. These outliers could be explained by special events or campaigns where a large investment in ads was made for specific occasions.
 ![Box Plot](images/5_box_plot.png)
 
+6. Three Machine Learning models were tested to predict sales: KNN (K-Nearest Neighbors), Decision Tree, and Linear Regression. The evaluation of the models was performed using the R² coefficient of determination and Mean Squared Error (MSE), through cross-validation. Although very similar to KNN, the results indicated that the Decision Tree model showed the best performance with an R² value of 94,6% and an MSE of 1.58, making it the most suitable option for the analyzed dataset, as the KNN model with an R² of 96,1% and an MSE of 1.78 carries a higher risk of overfitting.
+![MSE Comparison](images/5_mse_comparison.png)
 
 
 
