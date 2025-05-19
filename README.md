@@ -11,4 +11,7 @@ This project analyzes the relationship between investments in different advertis
 2. The correlation matrix revealed a strong positive correlation between Sales and TV Ad Budget, indicating that higher investments in TV ads are associated with higher sales. On the other hand, the correlation with Radio Ad Budget showed a moderate positive correlation, while the correlation with Newspaper Ad Budget exhibited a weak positive correlation:
 ![Correlation Matrix](images/2_correlation_matrix.png)
 
+3. The line chart displays the correlation between the variables, ordered from the most strongly correlated to the least correlated.
+![Line Plot](images/3_line_plot.png)
+
 
